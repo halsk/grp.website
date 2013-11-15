@@ -1,0 +1,12 @@
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        <h1 class="pull-left">{{page.title}}</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="{{site.baseurl}}{{page.lang}}">{{site.data.i18n.breadcrumbs-home[page.lang]}}</a></li>
+            {% for category in page.categories %}
+            	<li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{category}}</a></li>
+            {% endfor %}
+            <li class="active">{{page.title}}</li>
+        </ul>
+    </div>
+</div><!--/breadcrumbs-->
