@@ -1,0 +1,99 @@
+footer-about-headline:
+  en: "About Us"
+  de: "Über Uns"
+  ja: "会社情報"
+
+footer-about-text:
+  en: "Georepublic's speciality is the development and marketing of IT solutions in the field of geographical information systems, logistics and business intelligence based on open source software projects. The company has offices in Munich (Germany) and Tokyo as well as Osaka (Japan)."
+  de: "Die Firma Georepublic ist auf die Entwicklung und Vermarktung von IT-Lösungen im Bereich geographischer Informationssyteme, Logistik und Business Intelligence auf Basis von Open Source Softwareprojekten spezialisiert."
+  ja: "オープンソースGISやモバイル関連サービスでの経験豊富なメンバーが御社のシステム構築をお手伝いいたします。"
+
+footer-newsletter-headline:
+  en: "Newsletter"
+  de: "Newsletter"
+  ja: "ニュースレター"
+
+footer-newsletter-email:
+  en: "Email Address"
+  de: "Emailadresse"
+  ja: "メールアドレス"
+
+footer-newsletter-subscribe:
+  en: "Subscribe"
+  de: "Abonnieren"
+  ja: "申し込む"
+
+footer-recent-blog-headline:
+  en: "Recent Blog Entries"
+  de: "Neue Blog-Einträge"
+  ja: "最近のブログエントリー"
+
+footer-contact-headline:
+  en: "Contact Us"
+  de: "Kontaktieren Sie uns"
+  ja: "お問い合わせ"
+
+footer-contact-ja-title:
+  en: "Georepublic Japan"
+  de: "Georepublic Japan"
+  ja: "Georepublic Japan"
+
+footer-contact-ja-address:
+  en: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokyo, JAPAN"
+  de: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokio, JAPAN"
+  ja: "〒151-0071 東京都渋谷区本町3-24-14"
+
+footer-contact-ja-phone:
+  en: "Phone: +81 (03) 4578 9352"
+  de: "Telefon: +81 (03) 4578 9352"
+  ja: "電話: +81 (03) 4578 9352"
+
+footer-contact-ja-email:
+  en: 'Email: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+  de: 'Email: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+  ja: 'メール: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+
+footer-contact-de-title:
+  en: "Georepublic Germany"
+  de: "Georepublic Germany"
+  ja: "Georepublic Germany"
+
+footer-contact-de-address:
+  en: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+  de: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+  ja: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+
+footer-contact-de-phone:
+  en: "Phone: +49 (089) 4161 7698-9"
+  de: "Telefon: +49 (089) 4161 7698-9"
+  ja: "電話: +49 (089) 4161 7698-92"
+
+footer-contact-de-email:
+  en: 'Email: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+  de: 'Email: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+  ja: 'メール: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+
+footer-social-headline:
+  en: "Stay Connected"
+  de: "Stay Connected"
+  ja: "Stay Connected"
+
+footer-newsletter-text:
+  en: "Subscribe to our newsletter and stay up to date with the latest news and deals!"
+  de: "Abonnieren Sie unseren Newsletter und wir informieren Sie über die neuesten Entwicklungen und Angebote!"
+  ja: "ニュースレターを購読し、最新のニュースやお得な情報を最新の状態に滞在！"
+
+copyright-text:
+  en: "2013 &copy; Georepublic. ALL Rights Reserved."
+  de: "2013 &copy; Georepublic. Alle Rechte vorbehalten."
+  ja: "2013 &copy; Georepublic. ALL Rights Reserved."
+
+copyright-privacy:
+  en: "Privacy Policy"
+  de: "Datenschutz"
+  ja: "個人情報保護方針"
+
+copyright-tos:
+  en: "Terms of Service"
+  de: "Allgemeine Geschäftsbedingungen"
+  ja: "利用規約"
