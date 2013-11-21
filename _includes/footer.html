@@ -9,11 +9,13 @@
         <!-- Monthly Newsletter -->
         <div class="headline"><h2>{{site.data.i18n.footer-newsletter-headline[page.lang]}}</h2></div> 
         <p>{{site.data.i18n.footer-newsletter-text[page.lang]}}</p>
-        <form class="footer-subsribe">
+        <form class="footer-subsribe" action="http://news.georepublic.info/subscribe">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="{{site.data.i18n.footer-newsletter-email[page.lang]}}">                            
+            <input type="text" name="email" class="form-control" placeholder="{{site.data.i18n.footer-newsletter-email[page.lang]}}" />
+            <input type="hidden" name="list" value="{{site.data.newsletter.georepublic[page.lang]}}" />
+            <input type="hidden" name="boolean" value="true" />
             <span class="input-group-btn">
-              <button class="btn-u" type="button">{{site.data.i18n.footer-newsletter-subscribe[page.lang]}}</button>
+              <button class="btn-u subscribe" type="button">{{site.data.i18n.footer-newsletter-subscribe[page.lang]}}</button>
             </span>
           </div><!-- /input-group -->                    
         </form>             
@@ -31,14 +33,14 @@
         <strong>{{site.data.i18n.footer-contact-ja-title[page.lang]}} <a href="{{site.baseurl}}{{page.lang}}/contact.html"><i class="icon-share"></i></a></strong>
         <address class="md-margin-bottom-40">
         {{site.data.i18n.footer-contact-ja-address[page.lang]}}<br />
-        {{site.data.i18n.footer-contact-ja-phone[page.lang]}}<br />
-        {{site.data.i18n.footer-contact-ja-email[page.lang]}}
+        <i class="icon-phone-sign"></i> {{site.data.i18n.footer-contact-ja-phone[page.lang]}}<br />
+        <i class="icon-envelope-alt"></i> {{site.data.i18n.footer-contact-ja-email[page.lang]}}
         </address>
         <strong>{{site.data.i18n.footer-contact-de-title[page.lang]}} <a href="{{site.baseurl}}{{page.lang}}/contact.html"><i class="icon-share"></i></a></strong>
         <address class="md-margin-bottom-40">
         {{site.data.i18n.footer-contact-de-address[page.lang]}}<br />
-        {{site.data.i18n.footer-contact-de-phone[page.lang]}}<br />
-        {{site.data.i18n.footer-contact-de-email[page.lang]}}
+        <i class="icon-phone-sign"></i> {{site.data.i18n.footer-contact-de-phone[page.lang]}}<br />
+        <i class="icon-envelope-alt"></i> {{site.data.i18n.footer-contact-de-email[page.lang]}}
         </address>
 
         <!-- Stay Connected -->

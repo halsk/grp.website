@@ -1,32 +1,28 @@
-navigation-products:
-  en: "Products"
-  de: "Produkte"
-  ja: "プロダクツ"
-
-navigation-services:
-  en: "Services"
-  de: "Dienstleistungen"
-  ja: "提供サービス"
-
-navigation-projects:
-  en: "Projects"
-  de: "Projekte"
-  ja: "プロジェクト"
-
-navigation-blog:
-  en: "Blog"
-  de: "Blog"
-  ja: "ブログ"
-
-navigation-company:
-  en: "Company"
-  de: "Unternehmen"
-  ja: "会社情報"
-
-navigation-contact:
-  en: "Contact"
-  de: "Kontakt"
-  ja: "お問い合わせ"
+navigation:
+  products:
+    en: "Products"
+    de: "Produkte"
+    ja: "プロダクツ"
+  services:
+    en: "Services"
+    de: "Dienstleistungen"
+    ja: "提供サービス"
+  projects:
+    en: "Projects"
+    de: "Projekte"
+    ja: "プロジェクト"
+  blog:
+    en: "Blog"
+    de: "Blog"
+    ja: "ブログ"
+  company:
+    en: "Company"
+    de: "Unternehmen"
+    ja: "会社情報"
+  contact:
+    en: "Contact"
+    de: "Kontakt"
+    ja: "お問い合わせ"
 
 navigation-overview:
   en: "Overview"
@@ -99,14 +95,14 @@ footer-contact-ja-address:
   ja: "〒151-0071 東京都渋谷区本町3-24-14"
 
 footer-contact-ja-phone:
-  en: "Phone: +81 (03) 4578 9352"
-  de: "Telefon: +81 (03) 4578 9352"
-  ja: "電話: +81 (03) 4578 9352"
+  en: "+81 (03) 4578 9352"
+  de: "+81 (03) 4578 9352"
+  ja: "+81 (03) 4578 9352"
 
 footer-contact-ja-email:
-  en: 'Email: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
-  de: 'Email: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
-  ja: 'メール: <a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+  en: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+  de: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+  ja: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
 
 footer-contact-de-title:
   en: "Georepublic Germany"
@@ -119,14 +115,14 @@ footer-contact-de-address:
   ja: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
 
 footer-contact-de-phone:
-  en: "Phone: +49 (089) 4161 7698-1"
-  de: "Telefon: +49 (089) 4161 7698-1"
-  ja: "電話: +49 (089) 4161 7698-1"
+  en: "+49 (089) 4161 7698-1"
+  de: "+49 (089) 4161 7698-1"
+  ja: "+49 (089) 4161 7698-1"
 
 footer-contact-de-email:
-  en: 'Email: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
-  de: 'Email: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
-  ja: 'メール: <a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+  en: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+  de: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+  ja: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
 
 footer-social-headline:
   en: "Stay Connected"
@@ -138,18 +134,85 @@ footer-newsletter-text:
   de: "Abonnieren Sie unseren Newsletter und wir informieren Sie über die neuesten Entwicklungen und Angebote!"
   ja: "ニュースレターを購読し、最新のニュースやお得な情報を最新の状態に滞在！"
 
-copyright-text:
-  en: "2013 &copy; Georepublic. ALL Rights Reserved."
-  de: "2013 &copy; Georepublic. Alle Rechte vorbehalten."
-  ja: "2013 &copy; Georepublic. ALL Rights Reserved."
+general-read-more:
+  en: "read more"
+  de: "weiterlesen"
+  ja: "続きを読む"
 
-copyright-imprint:
-  en: "Imprint"
-  de: "Impressum"
-  ja: "会社概要"
+copyright:
+  text:
+    en: "2013 &copy; Georepublic. ALL Rights Reserved."
+    de: "2013 &copy; Georepublic. Alle Rechte vorbehalten."
+    ja: "2013 &copy; Georepublic. ALL Rights Reserved."
 
-copyright-disclaimer:
-  en: "Disclaimer"
-  de: "Haftungsausschluss"
-  ja: "免責事項"
+  imprint:
+    en: "Imprint"
+    de: "Impressum"
+    ja: "会社概要"
+
+  disclaimer:
+    en: "Disclaimer"
+    de: "Haftungsausschluss"
+    ja: "免責事項"
+
+blocks:
+  foss4g:
+    title:
+      en: "Open Source GIS"
+      de: "Open Source GIS"
+      ja: "Open Source GIS"
+    intro:
+      en: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
+      de: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
+      ja: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
+
+  opendata:
+    title:
+      en: "Open Data"
+      de: "Open Data"
+      ja: "Open Data"
+    intro:
+      en: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
+      de: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
+      ja: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
+
+  opengov:
+    title:
+      en: "Open Government"
+      de: "Open Government"
+      ja: "Open Government"
+    intro:
+      en: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
+      de: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
+      ja: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
+
+  mobile:
+    title:
+      en: "Mobile Apps"
+      de: "Mobile Apps"
+      ja: "Mobile Apps"
+    intro:
+      en: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
+      de: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
+      ja: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
+
+  analysis:
+    title:
+      en: "Spatial Analysis"
+      de: "Spatial Analysis"
+      ja: "Spatial Analysis"
+    intro:
+      en: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
+      de: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
+      ja: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
+
+  routing:
+    title:
+      en: "Route Optimization"
+      de: "Route Optimization"
+      ja: "Route Optimization"
+    intro:
+      en: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
+      de: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
+      ja: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
 

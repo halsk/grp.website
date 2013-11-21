@@ -1,13 +1,6 @@
 name: Georepublic
 permalink: /:categories/:title
 relative_permalinks: false
-languages:
-  - name: 'English'
-    key: 'en'
-  - name: 'Deutsch'
-    key: 'de'
-  - name: '日本語'
-    key: 'ja'
 
 # Prose settings
 prose:

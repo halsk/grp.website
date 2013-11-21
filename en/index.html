@@ -1,9 +1,34 @@
 ---
-layout: callout
+layout: default
 title: Geolocation Technology Company
 categories: []
 slug: home
 lang: en
 ---
 
-<p>TBD</p>
+<!--=== Slider ===-->
+{% include home/slider.html %}
+<!--=== End Slider ===-->
+
+<!--=== Content Part ===-->
+<div class="container">		
+
+	<div class="title-box {{page.slug}}">
+	    <div class="title-box-text">Welcome to <span class="color-green">Georepublic</span></div>
+	    <p>A Geolocation Technology Company</p>
+	</div>
+
+	<!--=== Blocks ===-->
+	{% include home/blocks.html %}
+	<!--=== End Blocks ===-->
+
+	<hr class="margin-bottom-40">
+
+	<div class="headline"><h2>Georepublic Presents</h2></div>
+
+	<!--=== Products ===-->
+	{% include home/products.html %}
+	<!--=== End Products ===-->
+
+</div>
+

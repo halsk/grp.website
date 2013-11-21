@@ -4,7 +4,7 @@
         <ul class="pull-right breadcrumb">
             <li><a href="{{site.baseurl}}{{page.lang}}">{{site.data.i18n.breadcrumbs-home[page.lang]}}</a></li>
             {% for category in page.categories %}
-            	<li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{category | capitalize}}</a></li>
+            	<li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{site.data.i18n.navigation[category][page.lang]}}</a></li>
             {% endfor %}
             <li class="active">{{page.title}}</li>
         </ul>

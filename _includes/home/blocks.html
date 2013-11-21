@@ -1,0 +1,113 @@
+<div class="row">
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-globe service-icon"></i>
+			<div class="desc">
+                <h4>{{site.data.i18n.blocks.foss4g.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.foss4g.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'foss4g' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-archive service-icon"></i>
+			<div class="desc">
+                <h4>{{site.data.i18n.blocks.opendata.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.opendata.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'opendata' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-group service-icon"></i>
+			<div class="desc">
+                <h4>{{site.data.i18n.blocks.opengov.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.opengov.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'opengov' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>			    
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-tablet service-icon"></i>
+			<div class="desc">
+				<h4>{{site.data.i18n.blocks.mobile.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.mobile.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'mobile' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-cogs service-icon"></i>
+			<div class="desc">
+                <h4>{{site.data.i18n.blocks.analysis.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.analysis.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'analysis' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>
+	<div class="col-md-4">
+		<div class="service">
+            <i class="icon-truck service-icon"></i>
+			<div class="desc">
+                <h4>{{site.data.i18n.blocks.routing.title[page.lang]}}</h4>
+                <p>{{site.data.i18n.blocks.routing.intro[page.lang]}}</p>
+				<ul class="list-unstyled">
+                    {% for p in site.pages do %}
+                        {% if p.lang == page.lang %}
+                            {% if p.tags contains 'routing' %}
+                                <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+			</div>
+		</div>	
+	</div>			    
+</div>

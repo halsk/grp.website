@@ -1,0 +1,22 @@
+<div class="row">
+{% for p in site.pages do %}
+    {% if p.lang == page.lang %}
+        {% if p.promo %}
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                    <div class="thumbnail-img">
+                        <div class="overflow-hidden">
+                            <img class="img-responsive" src="{{site.baseurl}}assets/img/promo/{{p.slug}}.png" alt="">
+                        </div>
+                        <a class="btn-more hover-effect" href="{{p.url}}">{{site.data.i18n.general-read-more[page.lang]}} +</a>                   
+                    </div>
+                    <div class="caption">
+                        <h3><a class="hover-effect" href="{{p.url}}">{{p.title}}</a></h3>
+                        <p>{{p.promo}}</p>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}                            
+</div>
