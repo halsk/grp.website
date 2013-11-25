@@ -1,9 +1,23 @@
 ---
 layout: standard
 title: Products
+promo:
 categories: []
+tags: []
 slug: products
 lang: ja
 ---
 
-<p>TBD</p>
+<!--=== Content Part ===-->
+<div class="container">		
+
+	<div class="title-box {{page.slug}}">
+	    <div class="title-box-text">Welcome to <span class="color-green">Georepublic</span></div>
+	    <p>A Geolocation Technology Company</p>
+	</div>
+
+	<!--=== Products ===-->
+	{% include widgets/lineup.html category="products" %}
+	<!--=== End Products ===-->
+
+</div>

@@ -1,0 +1,13 @@
+<div class="headline"><h2>{{site.data.i18n.footer.newsletter.headline[page.lang]}}</h2></div> 
+<p>{{site.data.i18n.footer.newsletter.text[page.lang]}}</p>
+<form class="footer-subscribe" action="http://news.georepublic.info/subscribe">
+    <input type="hidden" name="list" value="{{site.data.newsletter.georepublic[page.lang]}}" />
+    <input type="hidden" name="boolean" value="true" />              
+
+    <div class="input-group">
+        <input type="email" name="email" class="form-control" placeholder="{{site.data.i18n.footer.newsletter.email[page.lang]}}" />
+        <span class="input-group-btn">
+            <button class="btn-u subscribe" type="button">{{site.data.i18n.footer.newsletter.subscribe[page.lang]}}</button>
+        </span>
+    </div>
+</form>

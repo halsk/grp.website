@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Geolocation Technology Company
+promo:
 categories: []
+tags: []
 slug: home
 lang: ja
 ---
 
 <!--=== Slider ===-->
-{% include home/slider.html %}
+{% include widgets/slider.html %}
 <!--=== End Slider ===-->
 
 <!--=== Content Part ===-->
@@ -19,15 +21,15 @@ lang: ja
 	</div>
 
 	<!--=== Blocks ===-->
-	{% include home/blocks.html %}
+	{% include widgets/blocks.html keys="foss4g opendata opengov mobile analysis routing" %}
 	<!--=== End Blocks ===-->
 
 	<hr class="margin-bottom-40">
 
-	<div class="headline"><h2>Georepublic Presents</h2></div>
-
 	<!--=== Products ===-->
-	{% include home/products.html %}
+	<div class="headline"><h2>Recent Works</h2></div>
+	{% include widgets/category.html category="products" maxitems = "****" image="true" %}
 	<!--=== End Products ===-->
 
 </div>
+

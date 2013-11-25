@@ -1,60 +1,26 @@
 <div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 md-margin-bottom-40">
-        <!-- About -->
-        <div class="headline"><h2>{{site.data.i18n.footer-about-headline[page.lang]}}</h2></div>  
-        <p class="margin-bottom-25 md-margin-bottom-40">{{site.data.i18n.footer-about-text[page.lang]}}</p>  
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- About -->
+                {% include footer/about.html %}
 
-        <!-- Monthly Newsletter -->
-        <div class="headline"><h2>{{site.data.i18n.footer-newsletter-headline[page.lang]}}</h2></div> 
-        <p>{{site.data.i18n.footer-newsletter-text[page.lang]}}</p>
-        <form class="footer-subsribe" action="http://news.georepublic.info/subscribe">
-          <div class="input-group">
-            <input type="text" name="email" class="form-control" placeholder="{{site.data.i18n.footer-newsletter-email[page.lang]}}" />
-            <input type="hidden" name="list" value="{{site.data.newsletter.georepublic[page.lang]}}" />
-            <input type="hidden" name="boolean" value="true" />
-            <span class="input-group-btn">
-              <button class="btn-u subscribe" type="button">{{site.data.i18n.footer-newsletter-subscribe[page.lang]}}</button>
-            </span>
-          </div><!-- /input-group -->                    
-        </form>             
-      </div><!--/col-md-4-->  
+                <!-- Monthly Newsletter -->
+                {% include footer/newsletter.html %}
+            </div>
 
-      <div class="col-md-4 md-margin-bottom-40">
-        <div class="posts">
-          <div class="headline"><h2>{{site.data.i18n.footer-recent-blog-headline[page.lang]}}</h2></div>
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- Recent Blog Posts -->
+                {% include footer/recentblog.html %}
+            </div>
+
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- Contact Details -->
+                {% include footer/contact.html %}
+
+                <!-- Stay Connected -->
+                {% include footer/social.html %}
+            </div>
         </div>
-      </div><!--/col-md-4-->
-
-      <div class="col-md-4">
-        <!-- Monthly Newsletter -->
-        <div class="headline"><h2>{{site.data.i18n.footer-contact-headline[page.lang]}}</h2></div> 
-        <strong>{{site.data.i18n.footer-contact-ja-title[page.lang]}} <a href="{{site.baseurl}}{{page.lang}}/contact.html"><i class="icon-share"></i></a></strong>
-        <address class="md-margin-bottom-40">
-        {{site.data.i18n.footer-contact-ja-address[page.lang]}}<br />
-        <i class="icon-phone-sign"></i> {{site.data.i18n.footer-contact-ja-phone[page.lang]}}<br />
-        <i class="icon-envelope-alt"></i> {{site.data.i18n.footer-contact-ja-email[page.lang]}}
-        </address>
-        <strong>{{site.data.i18n.footer-contact-de-title[page.lang]}} <a href="{{site.baseurl}}{{page.lang}}/contact.html"><i class="icon-share"></i></a></strong>
-        <address class="md-margin-bottom-40">
-        {{site.data.i18n.footer-contact-de-address[page.lang]}}<br />
-        <i class="icon-phone-sign"></i> {{site.data.i18n.footer-contact-de-phone[page.lang]}}<br />
-        <i class="icon-envelope-alt"></i> {{site.data.i18n.footer-contact-de-email[page.lang]}}
-        </address>
-
-        <!-- Stay Connected -->
-        <div class="headline"><h2>{{site.data.i18n.footer-social-headline[page.lang]}}</h2></div> 
-        <ul class="social-icons">
-          <li><a href="http://blog.georepublic.info/atom.xml" data-original-title="Feed" class="social_rss"></a></li>
-          <li><a href="https://www.facebook.com/georepublic" data-original-title="Facebook" class="social_facebook"></a></li>
-          <li><a href="https://twitter.com/georepublic" data-original-title="Twitter" class="social_twitter"></a></li>
-          <li><a href="https://plus.google.com/+GeorepublicInfo" data-original-title="Goole Plus" class="social_googleplus"></a></li>
-          <!-- <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li> -->
-          <li><a href="http://www.linkedin.com/company/1281832" data-original-title="Linkedin" class="social_linkedin"></a></li>
-          <!-- <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li> -->
-        </ul>
-      </div><!--/col-md-4-->
-    </div><!--/row--> 
-  </div><!--/container--> 
-</div><!--/footer-->  
+    </div>
+</div>

@@ -24,120 +24,120 @@ navigation:
     de: "Kontakt"
     ja: "お問い合わせ"
 
-navigation-overview:
-  en: "Overview"
-  de: "Übersicht"
-  ja: "概要"
+  overview:
+    en: "Overview"
+    de: "Übersicht"
+    ja: "概要"
+  toggle:
+    en: "Toggle navigation"
+    de: "Menü umschalten"
+    ja: "ナビゲーションを切り替え"
+  search:
+    field:
+      en: "Keyword"
+      de: "Stichwort"
+      ja: "キーワード"
+    button:
+      en: "Search"
+      de: "Suche"
+      ja: "検索"
 
-navigation-toggle:
-  en: "Toggle navigation"
-  de: "Menü umschalten"
-  ja: "ナビゲーションを切り替え"
+footer:
+  about:
+    headline:
+      en: "About Us"
+      de: "Über Uns"
+      ja: "会社情報"
+    text:
+      en: "Georepublic's speciality is the development and marketing of IT solutions in the field of geographical information systems, logistics and business intelligence based on open source software projects. The company has offices in Munich (Germany) and Tokyo as well as Osaka (Japan)."
+      de: "Die Firma Georepublic ist auf die Entwicklung und Vermarktung von IT-Lösungen im Bereich geographischer Informationssyteme, Logistik und Business Intelligence auf Basis von Open Source Softwareprojekten spezialisiert."
+      ja: "オープンソースGISやモバイル関連サービスでの経験豊富なメンバーが御社のシステム構築をお手伝いいたします。"
 
-navigation-search-field:
-  en: "Keyword"
-  de: "Stichwort"
-  ja: "キーワード"
+  newsletter:
+    headline:
+      en: "Newsletter"
+      de: "Newsletter"
+      ja: "ニュースレター"
+    text:
+      en: "Subscribe to our newsletter and stay up to date with the latest news and deals!"
+      de: "Abonnieren Sie unseren Newsletter und wir informieren Sie über die neuesten Entwicklungen und Angebote!"
+      ja: "ニュースレターを購読し、最新のニュースやお得な情報を最新の状態に滞在！"
+    email:
+      en: "Email Address"
+      de: "Emailadresse"
+      ja: "メールアドレス"
+    name:
+      en: "Name"
+      de: "Name"
+      ja: "お名前"
+    subscribe:
+      en: "Subscribe"
+      de: "Abonnieren"
+      ja: "申し込む"
 
-navigation-search-button:
-  en: "Search"
-  de: "Suche"
-  ja: "検索"
+  social:
+    headline:
+      en: "Stay Connected"
+      de: "Stay Connected"
+      ja: "Stay Connected"
 
-breadcrumbs-home:
-  en: "Home"
-  de: "Startseite"
-  ja: "ホーム"
+  recentblog:
+      headline:
+        en: "Recent Blog Entries"
+        de: "Neue Blog-Einträge"
+        ja: "最近のブログエントリー"
 
-footer-about-headline:
-  en: "About Us"
-  de: "Über Uns"
-  ja: "会社情報"
+  contact:
+    headline:
+      en: "Contact Us"
+      de: "Kontaktieren Sie uns"
+      ja: "お問い合わせ"
+    ja:
+      title:
+        en: "Georepublic Japan"
+        de: "Georepublic Japan"
+        ja: "Georepublic Japan"
+      address:
+        en: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokyo, JAPAN"
+        de: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokio, JAPAN"
+        ja: "〒151-0071 東京都渋谷区本町3-24-14"
+      phone:
+        en: "+81 (03) 4578 9352"
+        de: "+81 (03) 4578 9352"
+        ja: "+81 (03) 4578 9352"
+      email:
+        en: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+        de: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+        ja: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
+    de:
+      title:
+        en: "Georepublic Germany"
+        de: "Georepublic Germany"
+        ja: "Georepublic Germany"
+      address:
+        en: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+        de: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+        ja: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
+      phone:
+        en: "+49 (089) 4161 7698-1"
+        de: "+49 (089) 4161 7698-1"
+        ja: "+49 (089) 4161 7698-1"
+      email:
+        en: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+        de: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
+        ja: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
 
-footer-about-text:
-  en: "Georepublic's speciality is the development and marketing of IT solutions in the field of geographical information systems, logistics and business intelligence based on open source software projects. The company has offices in Munich (Germany) and Tokyo as well as Osaka (Japan)."
-  de: "Die Firma Georepublic ist auf die Entwicklung und Vermarktung von IT-Lösungen im Bereich geographischer Informationssyteme, Logistik und Business Intelligence auf Basis von Open Source Softwareprojekten spezialisiert."
-  ja: "オープンソースGISやモバイル関連サービスでの経験豊富なメンバーが御社のシステム構築をお手伝いいたします。"
+breadcrumbs:
+  home:
+    en: "Home"
+    de: "Startseite"
+    ja: "ホーム"
 
-footer-newsletter-headline:
-  en: "Newsletter"
-  de: "Newsletter"
-  ja: "ニュースレター"
-
-footer-newsletter-email:
-  en: "Email Address"
-  de: "Emailadresse"
-  ja: "メールアドレス"
-
-footer-newsletter-subscribe:
-  en: "Subscribe"
-  de: "Abonnieren"
-  ja: "申し込む"
-
-footer-recent-blog-headline:
-  en: "Recent Blog Entries"
-  de: "Neue Blog-Einträge"
-  ja: "最近のブログエントリー"
-
-footer-contact-headline:
-  en: "Contact Us"
-  de: "Kontaktieren Sie uns"
-  ja: "お問い合わせ"
-
-footer-contact-ja-title:
-  en: "Georepublic Japan"
-  de: "Georepublic Japan"
-  ja: "Georepublic Japan"
-
-footer-contact-ja-address:
-  en: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokyo, JAPAN"
-  de: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokio, JAPAN"
-  ja: "〒151-0071 東京都渋谷区本町3-24-14"
-
-footer-contact-ja-phone:
-  en: "+81 (03) 4578 9352"
-  de: "+81 (03) 4578 9352"
-  ja: "+81 (03) 4578 9352"
-
-footer-contact-ja-email:
-  en: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
-  de: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
-  ja: '<a href="mailto:info@georepublic.co.jp" class="">info@georepublic.co.jp</a>'
-
-footer-contact-de-title:
-  en: "Georepublic Germany"
-  de: "Georepublic Germany"
-  ja: "Georepublic Germany"
-
-footer-contact-de-address:
-  en: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
-  de: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
-  ja: "Salzmannstraße 44 <br/> 81739 München, GERMANY"
-
-footer-contact-de-phone:
-  en: "+49 (089) 4161 7698-1"
-  de: "+49 (089) 4161 7698-1"
-  ja: "+49 (089) 4161 7698-1"
-
-footer-contact-de-email:
-  en: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
-  de: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
-  ja: '<a href="mailto:info@georepublic.de" class="">info@georepublic.de</a>'
-
-footer-social-headline:
-  en: "Stay Connected"
-  de: "Stay Connected"
-  ja: "Stay Connected"
-
-footer-newsletter-text:
-  en: "Subscribe to our newsletter and stay up to date with the latest news and deals!"
-  de: "Abonnieren Sie unseren Newsletter und wir informieren Sie über die neuesten Entwicklungen und Angebote!"
-  ja: "ニュースレターを購読し、最新のニュースやお得な情報を最新の状態に滞在！"
-
-general-read-more:
-  en: "read more"
-  de: "weiterlesen"
-  ja: "続きを読む"
+general:
+  readmore:
+    en: "read more"
+    de: "weiterlesen"
+    ja: "続きを読む"
 
 copyright:
   text:
@@ -154,65 +154,3 @@ copyright:
     en: "Disclaimer"
     de: "Haftungsausschluss"
     ja: "免責事項"
-
-blocks:
-  foss4g:
-    title:
-      en: "Open Source GIS"
-      de: "Open Source GIS"
-      ja: "Open Source GIS"
-    intro:
-      en: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
-      de: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
-      ja: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
-
-  opendata:
-    title:
-      en: "Open Data"
-      de: "Open Data"
-      ja: "Open Data"
-    intro:
-      en: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
-      de: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
-      ja: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
-
-  opengov:
-    title:
-      en: "Open Government"
-      de: "Open Government"
-      ja: "Open Government"
-    intro:
-      en: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
-      de: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
-      ja: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
-
-  mobile:
-    title:
-      en: "Mobile Apps"
-      de: "Mobile Apps"
-      ja: "Mobile Apps"
-    intro:
-      en: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
-      de: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
-      ja: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
-
-  analysis:
-    title:
-      en: "Spatial Analysis"
-      de: "Spatial Analysis"
-      ja: "Spatial Analysis"
-    intro:
-      en: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
-      de: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
-      ja: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
-
-  routing:
-    title:
-      en: "Route Optimization"
-      de: "Route Optimization"
-      ja: "Route Optimization"
-    intro:
-      en: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
-      de: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
-      ja: "One of our key activities is the support of pgRouting. Together with other Open Source libraries we develop software for newwork analysis and tour planning."
-

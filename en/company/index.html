@@ -1,12 +1,25 @@
 ---
 layout: standard
 title: Company
+promo: 
 categories: []
+tags: []
 slug: company
 lang: en
 ---
 
-<h2>Company Profile</h2>
+<!--=== Content Part ===-->
+<div class="container">		
+	<h2>Company Profile</h2>
 
-<p>Georepublic's speciality is the development and marketing of IT solutions in the field of geographical information systems, logistics and business intelligence based on open source software projects. The company has offices in Munich (Germany) and Tokyo as well as Osaka (Japan).</p>
-<p>A key activity is the support of an open source project called "pgRouting". Its algorithms and features have been significantly developed from both founders.</p>
+	<p>Georepublic's speciality is the development and marketing of IT solutions in the field of geographical information systems, logistics and business intelligence based on open source software projects. The company has offices in Munich (Germany) and Tokyo as well as Osaka (Japan).</p>
+	<p>A key activity is the support of an open source project called "pgRouting". Its algorithms and features have been significantly developed from both founders.</p>
+
+	<hr class="margin-bottom-40">
+
+	<!--=== Products ===-->
+	<div class="headline"><h2>Related Topics</h2></div>
+	{% include widgets/category.html category="company" maxitems = "********" width="4" image="false" %}
+	<!--=== End Products ===-->
+</div>
+

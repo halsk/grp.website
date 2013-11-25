@@ -1,0 +1,22 @@
+{% capture categories %}{{include.keys}}{% endcapture %}
+{% assign categories = categories | split: ' ' %}
+
+{% for category in categories %}  
+<li class="dropdown">
+    <a href="{{site.baseurl}}{{page.lang}}/{{category}}" data-target="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+        {{site.data.i18n.navigation.[category][page.lang]}}
+        <i class="icon-angle-down"></i>
+    </a>
+    <ul class="dropdown-menu">
+        <li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{site.data.i18n.navigation.overview[page.lang]}}</a>
+        {% for p in site.pages do %}
+            {% if p.lang == page.lang %}
+                {% if p.categories contains category %}
+                    <li class="{% if p.url == page.url %}active{% endif %}"><a href="{{p.url}}">{{p.title}}</a></li>  
+                {% endif %}
+            {% endif %}
+        {% endfor %}                            
+    </ul>
+</li>
+{% endfor %}   
+                
