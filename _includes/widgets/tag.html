@@ -1,0 +1,32 @@
+{% capture tag %}{{include.tag}}{% endcapture %}
+{% capture maxitems %}{{include.maxitems}}{% endcapture %}
+{% capture image %}{{include.image}}{% endcapture %}
+
+<div class="row">
+{% assign counter = '*' %}
+{% for p in site.pages %}
+    {% if p.lang == page.lang and p.tags contains tag and counter.size <= maxitems.size %}
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+            {% if image == 'true' %}
+            <div class="thumbnail-img">
+                <div class="overflow-hidden">
+                    <img class="img-responsive" src="{{site.baseurl}}assets/img/promo/{{p.slug}}.png" alt="">
+                </div>
+                <a class="btn-more hover-effect" href="{{p.url}}">{{site.data.i18n.general-read-more[page.lang]}} +</a>             
+            </div>
+            {% endif %}
+            <div class="caption">
+                <h3><a class="hover-effect" href="{{p.url}}">{{p.title}}</a></h3>
+                <p>{{p.promo}}</p>
+                
+                {% if image != 'true' %}
+                    <p><a href="{{p.url}}" class="btn-u btn-u-small">{{site.data.i18n.general.readmore[page.lang]}}</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% capture counter %}{{counter}}*{% endcapture %}
+    {% endif %}
+{% endfor %}                            
+</div>

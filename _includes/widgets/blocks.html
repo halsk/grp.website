@@ -1,0 +1,23 @@
+{% capture blocks %}{{include.keys}}{% endcapture %}
+{% assign blocks = blocks | split: ' ' %}
+
+<div class="row">
+{% for key in blocks %}  
+    <div class="col-md-4">
+        <div class="service">
+            <i class="{{site.data.blocks[key].icon}} service-icon"></i>
+            <div class="desc">
+                <h4>{{site.data.blocks[key].title[page.lang]}}</h4>
+                <p>{{site.data.blocks[key].intro[page.lang]}}</p>
+                <ul class="list-unstyled">
+                    {% for p in site.pages %}
+                        {% if p.lang == page.lang and p.tags contains key %}
+                            <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                        {% endif %}
+                    {% endfor %}                            
+                </ul>                    
+            </div>
+        </div>  
+    </div>
+{% endfor %}   
+</div>
