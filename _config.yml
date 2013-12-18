@@ -1,7 +1,53 @@
 name: Georepublic
-permalink: /:categories/:title
+permalink: /blog/:year/:title
 relative_permalinks: false
+excerpt_separator: "<!-- Read More -->"
+
+paginate: 5
+paginate_path: "blog/page/:num"
 
 # Prose settings
 prose:
   rooturl: '_posts'
+  siteurl: "http://beta.georepublic.info"
+  relativeLinks: 'http://beta.georepublic.info/links.jsonp'
+  media: "media"
+
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          placeholder: "YYYY-MM-DD hh:mm:ss"
+
+      - name: "author"
+        field:
+          label: "Author"
+          element: "text"
+          value: "Team Georepublic"
+
+      - name: "tags"
+        field:
+          label: "Tags"
+          element: "multiselect"
+          options: ["News", "Technology", "Community", "FOSS4G", "Release"]
+          alterable: true
+
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: true
+
+
