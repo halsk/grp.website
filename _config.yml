@@ -9,7 +9,7 @@ paginate_path: "blog/page/:num"
 
 # Prose settings
 prose:
-  rooturl: '_posts'
+  rooturl: 'blog/_posts'
   siteurl: "http://beta.georepublic.info"
   relativeLinks: 'http://beta.georepublic.info/links.jsonp'
   media: "media"

@@ -6,15 +6,19 @@ slug: blog
 lang: en
 ---
 
-<!-- <div class="margin-bottom-40">
-    <img class="img-responsive" src="{{site.baseurl}}assets/img/shirasete/bg1.jpg" alt="">
-</div> -->
+<div class="margin-bottom-20">
+    <img class="img-responsive" src="{{site.baseurl}}assets/img/georepublic/bg2.jpg" alt="">
+</div>
 
-{% for post in site.posts %}
-<div class="blog margin-bottom-40">
-    <!-- <div class="blog-img">
-        <img class="img-responsive" src="{{site.baseurl}}assets/img/sliders/revolution/bg8.jpg" alt="">
-    </div> -->
+<div class="margin-bottom-20">
+    <div class="tag-box tag-box-v2">
+        <h2>First-hand news from the Georepublic press office</h2>
+        <p>Spatial news about open source, GIS, free software, geo logistics, thematics, location based mobile apps, geomedia, mapping and hacking, brought to you from the people of Georepublic.</p>
+    </div>                    
+</div>
+
+{% for post in paginator.posts %}
+<div class="blog clearfix">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <div class="blog-post-tags">
 	    <ul class="list-unstyled list-inline blog-info">
@@ -34,28 +38,30 @@ lang: en
     </div>
     <p>{{ post.excerpt }}</p>
     <p><a class="btn-u btn-u-small" href="{{ post.url }}"><i class="icon-plus-sign"></i> Read More</a></p>
-    <hr>
 </div>
+<hr>
 {% endfor %}
 
 <div class="text-center">
 	<ul class="pagination">
 	{% if paginator.previous_page %}
-		<li><a href="{{site.baseurl}}news/page/{{ paginator.previous_page }}">«</a></li>
+		<li><a href="{{paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/'}}">«</a></li>
 	{% else %}
 		<li class="disabled"><a href="#">«</a></li>
 	{% endif %}
 
-	{% for i in (1..paginator.total_pages) %}
-		{% if i == paginator.page %}
-			<li class="active"><a href="#">{{ i }}</a></li>
+	{% for page in (1..paginator.total_pages) %}
+		{% if page == paginator.page %}
+			<li class="active"><a href="#">{{ page }}</a></li>
+		{% elsif page == 1 %}
+			<li><a href="{{'/blog/index.html' | prepend: site.baseurl | replace: '//', '/'}}">{{ page }}</a></li>
 		{% else %}
-			<li><a href="{{site.baseurl}}news/page/{{ i }}">{{ i }}</a></li>
+			<li><a href="{{site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page}}">{{ page }}</a></li>
 		{% endif %}
 	{% endfor %}
 
 	{% if paginator.next_page %}
-		<li><a href="{{site.baseurl}}news/page/{{ paginator.next_page }}">»</a></li>
+		<li><a href="{{paginator.next_page_path | prepend: site.baseurl | replace: '//', '/'}}">»</a></li>
 	{% else %}
 		<li class="disabled"><a href="#">»</a></li>
 	{% endif %}

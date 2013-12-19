@@ -1,7 +1,7 @@
 <div class="posts">
     <div class="headline"><h2>{{site.data.i18n.footer.recentblog.headline[page.lang]}}</h2></div>
 
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:3 %}
     <dl class="dl-horizontal">
         <dt><a href="{{ post.url }}"><img src="{{site.baseurl}}assets/img/georepublic/logo_seal.png" alt=""></a></dt>
         <dd>
