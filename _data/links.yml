@@ -1,0 +1,14 @@
+social:
+  facebook: "https://www.facebook.com/georepublic"
+  twitter: "https://twitter.com/georepublic"
+  google: "https://plus.google.com/+GeorepublicInfo"
+  linkedin: "http://www.linkedin.com/company/1281832"
+
+newsletter:
+  apikey: 
+    en: "25F1BpdO0NhmxONIw0gcdA"
+    de: "iRZW2GsYLQPm3Nfwr3rrWQ"
+    ja: "j5g1bCSNzowDOzSlz7635xfA"
+  subscribe: "http://news.georepublic.info/subscribe"
+  unsubscribe: "http://news.georepublic.info/unsubscribe"
+

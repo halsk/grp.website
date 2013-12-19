@@ -1,95 +1,85 @@
-/**
- *
- *
- */
-
 // GRP Namespace
 GRP = {};
 
+(function($){
+	$.getUrlVar = function(key){
+		var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
+		return result && unescape(result[1]) || ""; 
+	};
+})(jQuery);
+
 jQuery(document).ready(function() {
-	GRP.parseRSS('http://blog.georepublic.info/atom.xml', function (data) {
-		$.each(data.entries, function (idx,entry) {
-			if (idx <= 3) {
-				var post = '<dl class="dl-horizontal"><dt><a href="' + entry.link 
-							+ '"><img src="/assets/img/seal1-georepublic.png" alt="" /></a></dt><dd><p><a href="' + entry.link + '">' 
-							+ entry.contentSnippet + '</a></p></dd></dl>';
-				$('.footer .posts').append(post);
-			}
-		});		
+
+	$(".open-modal").bind('click focus', function () {
+		$('#modalSubscribe').modal('show');
+		$("#modalSubscribe form:not(.filter) :input:visible:enabled:first").focus();
 	});
 
-	$('button.subscribe').bind('click', function (evt) {
+	if($.getUrlVar('status') == 'success') {
+		$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message[$.getUrlVar('msg')] + '</div>');
+	}
+
+	if($.getUrlVar('status') == 'error') {
+		$('body > .container:first > div:first').prepend('<div class="alert alert-danger"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message[$.getUrlVar('msg')] + '</div>');
+	}
+
+	if($.getUrlVar('email').length > 0) {
+		$("input[name='email']").val($.getUrlVar('email'));
+	}
+
+	$('button.sendy').bind('click', function (evt) {
+
+		var form = $(this.form);
+		var btn = $(this);
+		btn.button('loading');
+
+		var name = [];
+		name.push($("input[name='Last']",form).val());
+		name.push($("input[name='First']",form).val());
+		$("input[name='name']",form).val(name.join(' '));
+
 		$.post(
-			$(this.form)[0].action, 
-			$(this.form).serialize(), 
+			form[0].action, 
+			form.serialize(), 
 			function (response) {
+				btn.button('reset');
+
 				if (true) {
 					switch (response) {
 						case 'Some fields are missing.':
-							alert("Some fields are missing.");
+							form[0].prepend('<div class="alert alert-danger"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.a + '</div>');
 							break;
 
 						case 'Invalid email address.':
-							alert("Invalid email address.");
+							form.prepend('<div class="alert alert-danger"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.b + '</div>');
 							break;
 
-						case 'Invalid list ID.':
-							alert("Invalid list ID.");
+						case 'Already subscribed.':
+							$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.e + '</div>');
+							form[0].reset();
+							$('#modalSubscribe').modal('hide');
+							window.scrollTo(0,0);
 							break;
 
 						default:
-							alert("You're subscribed!");
+							if (form[0].action.split('/').pop() == 'subscribe') {
+								$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.d + '</div>');
+							}
+							else {
+								$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.f + '</div>');
+							}
+
+							form[0].reset();
+							$('#modalSubscribe').modal('hide');
+							window.scrollTo(0,0);
 							break;
 					}
 				}
 				else {
-					alert("Sorry, unable to subscribe. Please try again later!");
-				}			
-			}
-		);
-	});
-
-	$('button.message').bind('click', function (evt) {
-		$.post(
-			$(this.form)[0].action, 
-			$(this.form).serialize(), 
-			function (response) {
-				if (true) {
-					switch (response) {
-						case 'Some fields are missing.':
-							alert("Some fields are missing.");
-							break;
-
-						case 'Invalid email address.':
-							alert("Invalid email address.");
-							break;
-
-						case 'Invalid list ID.':
-							alert("Invalid list ID.");
-							break;
-
-						default:
-							alert("You're message has been sent!");
-							break;
-					}
+					form[0].prepend('<div class="alert alert-danger"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.c + '</div>');
 				}
-				else {
-					alert("Sorry, unable to send a message. Please try again later!");
-				}			
 			}
 		);
 	});
+
 });
-
-/**
- *	Parse RSS feed
- */
-GRP.parseRSS = function (url, callback) {
-	$.ajax({
-		url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&q=' + encodeURIComponent(url),
-		dataType: 'json',
-		success: function(data) {
-			callback(data.responseData.feed);
-		}
-	});
-}

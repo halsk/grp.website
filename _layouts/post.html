@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!--=== Breadcrumbs ===-->
+{% include breadcrumbs.html parent="news" %}
+<!--=== End Breadcrumbs ===-->
+
+<div class="container">		
+	<div id="top" class="row-fluid blog-page blog-item {{page.slug}}">
+
+		<div class="blog margin-bottom-40">
+		    <!-- <div class="blog-img">
+		        <img class="img-responsive" src="{{site.baseurl}}assets/img/sliders/revolution/bg8.jpg" alt="">
+		    </div> -->
+
+		    {{content}}
+
+			<hr>
+			<div class="blog-post-tags">
+			    <ul class="list-unstyled list-inline blog-info">
+			        <li><i class="icon-calendar"></i> {{ page.date | date_to_string }}</li>
+			        <li><i class="icon-pencil"></i> {{ page.author }}</li>
+			        <!-- <li><i class="icon-comments"></i> <a href="#">24 Comments</a></li> -->
+		            <li>
+					    <ul class="list-unstyled list-inline blog-tags">
+					        <li>
+					            <i class="icon-tags"></i> 
+					            {% for tag in page.tags %}
+						            <a href="#">{{ tag }}</a> 
+					            {% endfor %}
+					        </li>
+					    </ul>    	
+		            </li>
+			    </ul>                                            
+			</div>
+	    </div>
+
+	</div>
+</div>

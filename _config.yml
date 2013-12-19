@@ -1,7 +1,7 @@
 name: Georepublic
 permalink: /blog/:year/:title
 relative_permalinks: false
-excerpt_separator: "<!-- Read More -->"
+excerpt_separator: "<!-- more -->"
 
 paginate: 5
 paginate_path: "blog/page/:num"
@@ -37,6 +37,18 @@ prose:
           element: "text"
           value: "Team Georepublic"
 
+      - name: "language"
+        field:
+          label: "Language"
+          element: "select"
+          options: 
+            - name: "English"
+              value: "en"
+            - name: "日本語"
+              value: "ja"
+            - name: "Deutsch"
+              value: "de"
+
       - name: "tags"
         field:
           label: "Tags"
@@ -50,4 +62,8 @@ prose:
           element: "checkbox"
           value: true
 
-
+      - name: "comments"
+        field:
+          label: "Comments"
+          element: "checkbox"
+          value: true

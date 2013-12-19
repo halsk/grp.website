@@ -1,13 +1,25 @@
 <div class="headline"><h2>{{site.data.i18n.footer.newsletter.headline[page.lang]}}</h2></div> 
 <p>{{site.data.i18n.footer.newsletter.text[page.lang]}}</p>
-<form class="footer-subscribe" action="http://news.georepublic.info/subscribe">
-    <input type="hidden" name="list" value="{{site.data.newsletter.georepublic[page.lang]}}" />
-    <input type="hidden" name="boolean" value="true" />              
+<form class="footer-subscribe" action="{{site.data.links.newsletter.subscribe}}" onkeypress="return event.keyCode != 13;">
+    <input type="hidden" name="list" value="{{site.data.links.newsletter.apikey[page.lang]}}">
+    <input type="hidden" name="boolean" value="true">                        
+    <input type="hidden" name="name" value="">                        
 
     <div class="input-group">
-        <input type="email" name="email" class="form-control" placeholder="{{site.data.i18n.footer.newsletter.email[page.lang]}}" />
+        <input type="email" name="email" id="" class="form-control open-modal" placeholder="{{site.data.i18n.footer.newsletter.email[page.lang]}}" />
         <span class="input-group-btn">
-            <button class="btn-u subscribe" type="button">{{site.data.i18n.footer.newsletter.subscribe[page.lang]}}</button>
+            <button class="btn-u sendy" type="button">{{site.data.i18n.footer.newsletter.subscribe[page.lang]}}</button>
         </span>
     </div>
 </form>
+
+<script type="text/javascript">
+    var message = {
+    	'a': '{{site.data.i18n.footer.newsletter.status.missing[page.lang]}}',
+    	'b': '{{site.data.i18n.footer.newsletter.status.invalid[page.lang]}}',
+    	'c': '{{site.data.i18n.footer.newsletter.status.unavailable[page.lang]}}',
+    	'd': '{{site.data.i18n.footer.newsletter.status.subscribed[page.lang]}}',
+    	'e': '{{site.data.i18n.footer.newsletter.status.updated[page.lang]}}',
+        'f': '{{site.data.i18n.footer.newsletter.status.unsubscribed[page.lang]}}'
+    };
+</script>

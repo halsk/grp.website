@@ -74,6 +74,31 @@ footer:
       en: "Subscribe"
       de: "Abonnieren"
       ja: "申し込む"
+    status:
+      missing:
+        en: "Some fields are missing."
+        de: "Some fields are missing."
+        ja: "Some fields are missing."
+      invalid:
+        en: "Invalid email address."
+        de: "Invalid email address."
+        ja: "Invalid email address."
+      unavailable:
+        en: "Sorry, unable to subscribe. Please try again later!"
+        de: "Sorry, unable to subscribe. Please try again later!"
+        ja: "Sorry, unable to subscribe. Please try again later!"
+      subscribed:
+        en: "You have been subscribed to the Georepublic Newsletter."
+        de: "You have been subscribed to the Georepublic Newsletter."
+        ja: "You have been subscribed to the Georepublic Newsletter."
+      updated:
+        en: "Thank you. Your Georepublic Newsletter profile has been updated."
+        de: "Thank you. Your Georepublic Newsletter profile has been updated."
+        ja: "Thank you. Your Georepublic Newsletter profile has been updated."
+      unsubscribed:
+        en: "You have been unsubscribed from the Georepublic Newsletter."
+        de: "You have been unsubscribed from the Georepublic Newsletter."
+        ja: "You have been unsubscribed from the Georepublic Newsletter."
 
   social:
     headline:
