@@ -1,4 +1,4 @@
-<p><strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!</p>
+<p>{{site.data.i18n.widgets.subscribe.intro[page.lang]}}</p>
 
 <ul class="list-inline style-icons text-center">
     <li><a href="{{site.data.links.social.facebook}}"><i class="icon-facebook icon-round icon-round-sm icon-color-grey"></i></a></li>
@@ -7,33 +7,33 @@
     <li><a href="{{site.data.links.social.linkedin}}"><i class="icon-linkedin icon-round icon-round-sm icon-color-grey"></i></a></li>
 </ul>
 
-<p>Want to stop receiving our newsletter?<br> Click <a class="color-green" href="{{site.baseurl}}news/unsubscribe.html">here</a> to unsubscribe.</p>
+<p>{{site.data.i18n.widgets.subscribe.outro[page.lang]}}</p>
 
 <form action="{{site.data.links.newsletter.subscribe}}" onkeypress="return event.keyCode != 13;">
     <div class="input-group margin-bottom-20">
         <span class="input-group-addon"><i class="icon-envelope"></i></span>
-        <input type="text" class="form-control" name="email" placeholder="メールアドレス">
+        <input type="text" class="form-control" name="email" placeholder="{{site.data.i18n.widgets.subscribe.form.email[page.lang]}}">
         <input type="hidden" name="list" value="{{site.data.links.newsletter.apikey[page.lang]}}">
         <input type="hidden" name="boolean" value="true">
         <input type="hidden" name="name">
     </div>
     <div class="input-group margin-bottom-20">
         <span class="input-group-addon"><i class="icon-user"></i></span>
-        <input type="text" class="form-control" name="Last" placeholder="Family name">
+        <input type="text" class="form-control" name="Last" placeholder="{{site.data.i18n.widgets.subscribe.form.first[page.lang]}}">
     </div>
     <div class="input-group margin-bottom-20">
         <span class="input-group-addon"><i class="icon-user"></i></span>
-        <input type="text" class="form-control" name="First" placeholder="First name">
+        <input type="text" class="form-control" name="First" placeholder="{{site.data.i18n.widgets.subscribe.form.last[page.lang]}}">
     </div>
     <div class="input-group margin-bottom-20">
         <span class="input-group-addon"><i class="icon-briefcase"></i></span>
-        <input type="text" class="form-control" name="Company" placeholder="Company">
+        <input type="text" class="form-control" name="Company" placeholder="{{site.data.i18n.widgets.subscribe.form.company[page.lang]}}">
     </div>
     <hr>
                             
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <button type="button" class="btn-u btn-block sendy" data-loading-text="Sending...">Subscribe (Update)</button>                
+            <button type="button" class="btn-u btn-block sendy" data-loading-text="{{site.data.i18n.widgets.subscribe.form.waiting[page.lang]}}">{{site.data.i18n.widgets.subscribe.form.submit[page.lang]}}</button>                
         </div>
     </div>
 </form>

@@ -17,6 +17,8 @@ Georepublic and [Applied Technology Co. Ltd.][1] will hold an OCU Incubator laun
 
 The program will start with some presentations at 4:30 PM and will end with a nice party, we hope. So come to our event and meet with Osaka City University people, Kansai OSGeo community members and the people of Georepublic!
 
+<!-- more -->
+
 ![OCU Incubator launch Party][3]
 
 

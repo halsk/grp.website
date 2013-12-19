@@ -179,3 +179,81 @@ copyright:
     en: "Disclaimer"
     de: "Haftungsausschluss"
     ja: "免責事項"
+
+modals:
+  newsletter:
+    title:
+      en: "Subscribe to our Newsletter"
+      de: "Subscribe to our Newsletter"
+      ja: "Subscribe to our Newsletter"
+
+widgets:
+  subscribe:
+    intro:
+      en: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
+      de: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
+      ja: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
+
+    outro:
+      en: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/en/news/unsubscribe.html">here</a> to unsubscribe.'
+      de: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/de/news/unsubscribe.html">here</a> to unsubscribe.'
+      ja: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/ja/news/unsubscribe.html">here</a> to unsubscribe.'
+
+    form:
+      email:
+        en: "Email address"
+        de: "Emailadresse"
+        ja: "メールアドレス"
+
+      first:
+        en: "First name"
+        de: "Vorname"
+        ja: "First name"
+
+      last:
+        en: "Last name"
+        de: "Zuname"
+        ja: "Last name"
+
+      company:
+        en: "Company"
+        de: "Unternehmen"
+        ja: "Company"
+
+      submit:
+        en: "Subscribe (Update)"
+        de: "Subscribe (Update)"
+        ja: "Subscribe (Update)"
+
+      waiting:
+        en: "Sending..."
+        de: "Sending..."
+        ja: "Sending..."
+
+  unsubscribe:
+    intro:
+      en: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/en/contact">Contact us</a> and we will get back to you.'
+      de: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/de/contact">Contact us</a> and we will get back to you.'
+      ja: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/ja/contact">Contact us</a> and we will get back to you.'
+
+    outro:
+      en: '<a class="color-green" href="/en/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
+      de: '<a class="color-green" href="/de/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
+      ja: '<a class="color-green" href="/ja/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
+
+    form:
+      email:
+        en: "Email address"
+        de: "Emailadresse"
+        ja: "メールアドレス"
+
+      submit:
+        en: "Unsubscribe"
+        de: "Unsubscribe"
+        ja: "Unsubscribe"
+
+      waiting:
+        en: "Sending..."
+        de: "Sending..."
+        ja: "Sending..."
+

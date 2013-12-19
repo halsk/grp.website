@@ -18,6 +18,8 @@ This year's OSGeo main event, the [FOSS4G 2010][1] in Barcelona, is just one mon
 
 Georepublic will be there for the first time and this is not a big surprise, because the company is less than one year old. Nevertheless Georepublic will have 100% of their team attending the conference! I think that's worth to mention. And even if you won't find us on the sponsors list yet, we contributed many hours in projects like [pgRouting][3] and [OSGeo Live][4] DVD.
 
+<!-- more -->
+
 Georepublic already starts with a workshop on Tuesday morning. Together with Frederic from Camptocamp we made this year's pgRouting workshop even better with pretty manual and GeoExt sample application. Our workshop is already fully booked for many weeks and it made us very happy and proud to see that it was the [most popular][5] one.
 
 Here a list of where you can meet us at the conference:

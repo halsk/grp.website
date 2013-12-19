@@ -18,6 +18,8 @@ language: en
 
 [gvSIG Association][1] and Georepublic ([Germany][2] & [Japan][3]) signed agreement of collaboration, which goals are to spread the use of [gvSIG][1] and other geomatic software and to boost the software industry, specially for the small and the medium-sized enterprises, under the premises of collaboration and the shared knowledge.
  
+<!-- more -->
+
 ## About gvSIG Association
 
 The "Association for the promotion of FOSS4G  and the development of gvSIG", [gvSIG Association][1], aims  the sustainability  of [gvSIG project][1] and the development of FOSS4G solutions. 

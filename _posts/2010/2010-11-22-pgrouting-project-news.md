@@ -22,6 +22,8 @@ I'm glad to be able to announce the new pgRouting website, that also comes with 
 
 Here the changes in detail:
 
+<!-- more -->
+
 ## New Website and URL
 
 pgRouting got a new website and URL. So update your bookmarks to <http://www.pgrouting.org>. 

@@ -17,6 +17,8 @@ Georepublic uses the [SilverStripe CMS][1] for its own company website as well a
 
 !['SilverStripe CMS'][2]
 
+<!-- more -->
+
 SilverStripe CMS is easy for both developers and content authors to work with:
 
 - Edit content with ease

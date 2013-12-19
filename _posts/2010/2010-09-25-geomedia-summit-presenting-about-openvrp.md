@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "第6回ジオメディアサミットでOpenVRPの紹介をしてきました"
-permalink: "/2010/第6回ジオメディアサミットでOpenVRPの紹介をしてきました"
-author: "Haruyuki Seki"
+author: "Hal Seki"
 date: 2010-09-25 12:00:00
 comments: true
 tags: 
@@ -26,6 +25,8 @@ language: ja
 
 5分間という短い間でしたが、OpenVRP の目的と、概要をお伝えできたと思います。
 プレゼンテーションの補足として、いくつかの点を述べさせていたただきます。
+
+<!-- more -->
 
 ## DARP Solver
 

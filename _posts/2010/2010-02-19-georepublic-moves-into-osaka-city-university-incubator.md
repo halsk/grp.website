@@ -16,6 +16,8 @@ Georepublic has moved  this week to the new office in the [Business Incubator][1
 
 The office is not very large but pleasantly quiet, and the technical facilities of the university especially the internet connectivity are excellent. Venkatesh Raghavan and others from the OSGeo community are just a few buildings away.
 
+<!-- more -->
+
 ![Georepublic im Incubator der Osaka City Universität][3]
  
 Our new address and contact details are:

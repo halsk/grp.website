@@ -20,6 +20,8 @@ Looking at successful OSGeo projects we think that it should become easier to pa
 
 We believe that having a PSC would be the initial step for pgRouting to become more "open", to handle project management properly, to improve code quality, to hopefully extend functionality and of course to attract more developers and users.
 
+<!-- more -->
+
 To start an initial Project Steering Committee we're now looking for candidates. 
 Since the number of people who have been involved so far is rather small, we welcome anyone who has strong interest and/or motivation to participate.
 

@@ -23,6 +23,8 @@ See? It goes almost directly to a goal, all you need is to have one (here we can
  
 To make evolution work we need an information which describes a creature - an information we can modify and pass to another generations. Mother Nature made it for us - things we call 'genes'. And as long as we copy everything from the nature, we just copied this perfect approach also to solve for example NP-hard problems. And we call it Genetic Algorithms (or GA).
 
+<!-- more -->
+
 !['Genetic Algorithms'][6]
 
 We used GA in pgRouting before for solving [Travelling Salesperson Problem][3] (or TSP), and we used very nice and good working [GAUL][4] library for this. And it worked like a charm!

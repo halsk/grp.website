@@ -19,6 +19,8 @@ language: en
 
 More details in Japanese can be found on the [OSGeo Japan][1] website:
 
+<!-- more -->
+
 !['Osaka FOSS4G 2010'][3]
 
 !['Tokyo FOSS4G 2010'][5]

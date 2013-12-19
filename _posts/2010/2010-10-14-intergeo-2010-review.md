@@ -17,6 +17,8 @@ language: en
 Until this year I didn't have the opportunity to attend an [Intergeo 2010][12] fair, but I had heard about it since my university days. Staying in Germany at the time of the exhibition I got involved with OSGeo Park, organized by [FOSSGIS e.V.][1], the German representative of [OSGeo Foundation][2] and [OpenStreetMap][3].
 OSGeo projects as well as commercial service providers shared a wide exhibition area, which was planned and organized mainly through mailing list and wiki. During the three days GIS fair a quite impressive number of [ongoing presentations][4] were held at OSGeo Park, and most of the time  the presentation theater was filled with visitors, who could pick some free coffee and cookies at the OSGeo bar and listen to FOSS4G related topics.
 
+<!-- more -->
+
 !['Intergeo 2010'][5]
 
 We (Lars Lingner, Astrid Emde and me) tried to get a localized German version of the latest [OSGeo Live][6] DVD ready for Intergeo, but underestimated the time required by the DVD recording company, so we finally handed out the FOSS4G version. 
