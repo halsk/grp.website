@@ -8,7 +8,7 @@ tags:
   - Press
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 関です。

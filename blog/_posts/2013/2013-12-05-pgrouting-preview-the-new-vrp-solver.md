@@ -9,7 +9,7 @@ tags:
   - OpenVRP 
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 > <small>This is a guest post of "St. Nikolaus". It is written for the [Japanese FOSS4G Advent Calendar 2013][1] and it’s probably again the only one in English as in [2012][2].</small> 

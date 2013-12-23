@@ -11,14 +11,24 @@ navigation:
     en: "Projects"
     de: "Projekte"
     ja: "プロジェクト"
-  blog:
-    en: "Blog"
-    de: "Blog"
-    ja: "ブログ"
   company:
     en: "Company"
     de: "Unternehmen"
     ja: "会社情報"
+
+  blog:
+    en: "Blog"
+    de: "Blog"
+    ja: "ブログ"
+    latest: 
+      en: "Latest News"
+      de: "Latest News"
+      ja: "Latest News"
+    archive: 
+      en: "News Archive"
+      de: "News Archive"
+      ja: "News Archive"
+
   contact:
     en: "Contact"
     de: "Kontakt"

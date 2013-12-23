@@ -9,7 +9,7 @@ tags:
   - pgRouting
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 In September the annual [FOSS4G][1] will take place in Nottingham, and beside being a [sponsor][2] Georepublic will attend the event with three of us travelling from Tokyo and Osaka. We are also planning to attend [State of the Map][5] in Birmingham, UK and the [Quantum GIS Developer Meeting][6] in Brighton before heading to FOSS4G.

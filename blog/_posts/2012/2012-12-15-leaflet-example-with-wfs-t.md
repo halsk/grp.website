@@ -8,7 +8,7 @@ tags:
   - Foss
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 This article is supposed to be No. 15 in the Japanese [FOSS4G Advent Calendar 2012][1] 

@@ -9,7 +9,7 @@ tags:
   - Tech
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 This 2.0 release brings a number of major new features:

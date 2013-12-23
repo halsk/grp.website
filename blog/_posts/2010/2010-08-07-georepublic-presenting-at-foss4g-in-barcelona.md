@@ -9,7 +9,7 @@ tags:
   - pgRouting
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 This year's OSGeo main event, the [FOSS4G 2010][1] in Barcelona, is just one month ahead and blogs are filling up with articles of people being excited to attend the conference.

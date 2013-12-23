@@ -7,7 +7,7 @@ tags:
   - thoughts
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 最近Facebookばかり更新していてブログを更新できていないので、個人的なことも書いていこうと思います。

@@ -9,7 +9,7 @@ tags:
   - code sprint
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 From tomorrow the [Code Sprint 2010 in New York][1] will take place and [Jeff McKenna][2] and Georepublic are going to "take part". Not really by travelling to New York in person but via IRC and webcam. We want to use the opportunity to work intensively on [pgRouting][3] for a few days,  and to clean up the project page and do some community work.

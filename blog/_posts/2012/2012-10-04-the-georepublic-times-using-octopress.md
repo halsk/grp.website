@@ -9,7 +9,7 @@ tags:
   - Foss
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Let's start with a first post about how to publish articles on Georepublic's brand-new blog.

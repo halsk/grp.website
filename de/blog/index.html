@@ -1,0 +1,44 @@
+---
+layout: standard
+title: The Georepublic Times
+categories: []
+slug: blog
+lang: de
+---
+
+<div class="margin-bottom-20">
+    <img class="img-responsive" src="{{site.baseurl}}assets/img/georepublic/bg2.jpg" alt="">
+</div>
+
+<div class="col-md-9">
+
+    <!--=== Posts ===-->
+    {% include posts.html lang=page.lang max=10 %}
+    <!--=== Posts ===-->
+
+    <div class="row tag-box tag-box-v5 tag-box-v2">
+        <div class="col-md-8">
+            <span>Read previous articles in our international blog archive!</span>
+        </div>
+        <div class="col-md-4">
+            <p><a href="{{site.baseurl}}blog" class="btn-u btn-u-lg btn-u"><i class="icon-archive"></i> Visit Blog Archive</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="margin-bottom-20">
+        <div class="tag-box tag-box-v6">
+            <h2>First-hand news from the Georepublic press office</h2>
+            <p>Spatial news about open source, GIS, free software, geo logistics, thematics, location based mobile apps, geomedia, mapping and hacking, brought to you from the people of Georepublic.</p>
+        </div>                    
+    </div>
+
+    <!--=== Tags ===-->
+    {% include sidebar/tags.html max=10 %}
+    <!--=== Tags ===-->
+
+    <!--=== Posts ===-->
+    {% include sidebar/posts.html lang=page.lang max=10 %}
+    <!--=== Posts ===-->
+</div>

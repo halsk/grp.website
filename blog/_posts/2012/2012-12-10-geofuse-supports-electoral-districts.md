@@ -7,7 +7,7 @@ tags:
   - Geofuse
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 東京大学空間情報科学研究センターの西澤先生が選挙区のポリゴンデータを公開しており、許可をいただいたので Geofuse のレイヤーに追加を行いました。
@@ -54,7 +54,7 @@ Criteria や Range、Type, Color などを調整して、好みのマップに�
 
 これを iframe などで表示することもできます。例えば以下のように書きましょう。
 
-```
+```html
 <iframe src="生成されたURL" width="表示したい幅" height="表示したい高さ"></iframe><br/>
 <a href="生成されたURL" target="_blank">別ウィンドウで開く</a>
 ```

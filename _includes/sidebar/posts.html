@@ -1,0 +1,19 @@
+<div class="headline"><h2>Non-ABC Blog</h2></div>
+
+{% assign counter = '.' %}
+{% assign max = include.max | times: 1 %}
+
+{% for post in site.posts %}
+
+	{% if post.lang != include.lang and counter.size <= max %}
+
+			{% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+
+			<a href="{{ post.url }}">
+			    <h5>{{ post.title }}</h5>        
+			    <p>{{ post.content | strip_html | truncate: 120 }}</p> 
+			</a>
+
+	{% endif %}
+
+{% endfor %}

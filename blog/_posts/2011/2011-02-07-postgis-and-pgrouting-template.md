@@ -9,7 +9,7 @@ tags:
   - Foss
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 When creating a new database in PostgreSQL using the standard template, PostGIS and pgRouting functions and tables are missing of course. You can add these functions and tables one by one, but doing this every time for every single database is annoying work.

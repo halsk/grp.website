@@ -10,7 +10,7 @@ tags:
   - party
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Georepublic and [Applied Technology Co. Ltd.][1] will hold an OCU Incubator launch Party on March 2nd at the [Media Center][2] of Osaka City University. 

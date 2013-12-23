@@ -12,7 +12,7 @@ tags:
   - presentation
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 If you missed "Shortest Path Search for Real Road Networks with pgRouting" presentation or if you want to watch it again, here are the slides of our [presentation at FOSS4G 2010][1] in Barcelona:

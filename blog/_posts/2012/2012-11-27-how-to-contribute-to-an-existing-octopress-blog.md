@@ -8,7 +8,7 @@ tags:
   - Howto
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 You managed to setup your own Octopress blog? Great!

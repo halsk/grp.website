@@ -9,7 +9,7 @@ tags:
   - universität
 published: true
 comments: true
-language: de
+lang: de
 ---
 
 Georepublic hat diese Woche das neue [Büro im Business Incubator][1] der [Osaka City University][2] bezogen. Das Büro ist zwar nicht gross, dafür aber angenehm ruhig, und die technischen Einrichtungen der Universität, vor allem die Internetanbindung, sind hervorragend. 

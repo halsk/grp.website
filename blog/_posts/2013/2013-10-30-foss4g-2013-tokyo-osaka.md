@@ -11,7 +11,7 @@ tags:
   - 知らせて.jp
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 FOSS4G 2013 Tokyo/Osaka にて弊社社員が多数発表致します。

@@ -10,7 +10,7 @@ tags:
   - Geomedia 
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 9月20日に行われた、第6回ジオメディアサミット in G空間EXPOのライトニングトーク枠にて、OpenVRP に関するプレゼンテーションをさせていただきました。

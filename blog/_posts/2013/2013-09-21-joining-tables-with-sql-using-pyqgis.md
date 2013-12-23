@@ -10,7 +10,7 @@ tags:
   - pyQGIS
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 One of the features that makes MapInfo's MapBasic very useful is the ability to join a normal tabular data with a spatial data using plain SQL statements within an application. This is useful because it makes it possible to link numerous attribute tables (census, crime, marketing, etc. data) with just 1 table that contains the spatial information (map data).

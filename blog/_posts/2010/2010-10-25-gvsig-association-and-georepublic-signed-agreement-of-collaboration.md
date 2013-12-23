@@ -11,7 +11,7 @@ tags:
   - FOSS4G
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 !['gvSIG Association'][4]

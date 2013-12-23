@@ -1,5 +1,5 @@
 name: Georepublic
-permalink: /blog/:year/:title
+permalink: /:year/:title
 relative_permalinks: false
 excerpt_separator: "<!-- more -->"
 markdown: rdiscount

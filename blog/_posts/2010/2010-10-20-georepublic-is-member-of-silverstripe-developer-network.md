@@ -10,7 +10,7 @@ tags:
   - collaboration
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Georepublic uses the [SilverStripe CMS][1] for its own company website as well as for several projects. We can say that SilverStripe is our favorite content management system, because it gives us the freedom to efficiently build custom websites with enough flexibility for various needs.

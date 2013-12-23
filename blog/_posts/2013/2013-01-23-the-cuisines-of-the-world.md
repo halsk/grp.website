@@ -7,7 +7,7 @@ tags:
   - OSM
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 <p><strong>Tags</strong> or <strong>tagging</strong> are quite underrated in mapping where colourful lines/dots make up for most of the look and feel  . <strong><a href="http://wiki.openstreetmap.org/wiki/Main_Page" alt="Open Street Map wiki">OpenStreetMap</a></strong> as the name says is an open map but  also is  a open geographic database licensed under <a href="http://wiki.openstreetmap.org/wiki/Open_Database_License" alt="Open Database License">ODBL</a> . The beauty of the data is that its not just a dump of all the data but follows a certain <a href="http://wiki.openstreetmap.org/wiki/API_v0.6" alt="OSM API">schema</a> and could also be said to be semantic in nature aka it could be easily queried by a human or machine to get required information </p>

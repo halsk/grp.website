@@ -10,7 +10,7 @@ tags:
   - osgeo
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 !['Summer of Code 2010'][4]

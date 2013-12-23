@@ -10,7 +10,7 @@ tags:
   - Security
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Although [Geoserver][1] has its own valid Security system, exposing it directly to the internet still raises concerns, especially if Geoserver is being used to host corporate data. One source of these concerns is that Geoserver offers numerous Services that have to be closed properly, and a single unintended mistake in closing these Services might lead to an unauthorised access to the Services or sensitive data. This is in the same vein as a Database (Oracle or [PostgreSQL][2]) which has its own security system, but it will be foolhardy to make it accessible to the Internet instead of in the backend of an application where it rightfully belongs. 

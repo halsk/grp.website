@@ -9,7 +9,7 @@ tags:
   - PSC
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Georepublic made a [call for establishing a Project Steering Committee][1] for [pgRouting][2]. We want to boost project activity and make it easier for others to join and influence pgRouting development. 

@@ -8,7 +8,7 @@
         <i class="icon-angle-down"></i>
     </a>
     <ul class="dropdown-menu">
-        <li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{site.data.i18n.navigation.overview[page.lang]}}</a>
+        <li><a href="{{site.baseurl}}{{page.lang}}/{{category}}">{{site.data.i18n.navigation.overview[page.lang]}}</a></li>
         {% for p in site.pages %}
             {% if p.lang == page.lang %}
                 {% if p.categories contains category %}

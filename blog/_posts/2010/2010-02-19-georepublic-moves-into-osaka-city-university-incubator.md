@@ -9,7 +9,7 @@ tags:
   - university
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Georepublic has moved  this week to the new office in the [Business Incubator][1] of the [Osaka City University][2]. 

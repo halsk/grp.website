@@ -12,7 +12,7 @@ tags:
   - support
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 !['pgRouting Project'][1]

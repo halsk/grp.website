@@ -9,7 +9,7 @@ tags:
   - Tech]
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 With the (inofficial) alpha, beta and rc1 release of the new [pgRouting][2] 2.0.0 lots of smaller and bigger issues have been fixed: for example TSP now accepts a start and also an end point, the "develop" branch is checked on Travis CI

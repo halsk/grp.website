@@ -7,7 +7,7 @@ tags:
   - wanted
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 12月からの案件で先方都合で流れてしまったのがあって、ポコッとリソースが空いてしまいました。何か開発案件ありましたら是非お声がけください！

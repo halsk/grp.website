@@ -9,7 +9,7 @@ tags:
   - Community
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 このA7サイズのリーフレットは、オープンストリートマップを紹介するとても良い方法です。Frederik Ramm によって作られ、ドイツ周辺で何万も配られています。日本語版が完成し、無料で配布することができるようになりました！

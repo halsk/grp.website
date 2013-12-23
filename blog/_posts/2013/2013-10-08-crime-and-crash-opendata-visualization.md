@@ -8,7 +8,7 @@ tags:
   - オープンデータ
 published: true
 comments: true
-language: ja
+lang: ja
 ---
 
 Code for America のメーリングリストを見ていた所、犯罪データや交通事故情報のオープンデータのビジュアライゼーションでいくつか面白いサイトが紹介されていました。いくつか紹介させていただきます。

@@ -12,7 +12,7 @@ tags:
   - workshop
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 2010 is also Georepublic's first year at the local FOSS4G conference in Japan. The 2-days conference + 1 day workshop will take place October 31st to November 2nd in Tokyo and November 5th, 6th and 8th (workshops) in Osaka.

@@ -18,11 +18,18 @@
             <div class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% include header/dropdown.html keys="products services projects company" %}
+                    
                     <li class="dropdown">
-                        <a href="{{site.baseurl}}blog">
+                        <a href="{{site.baseurl}}{{page.lang}}/{{category}}" data-target="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
                             {{site.data.i18n.navigation.blog[page.lang]}}
+                            <i class="icon-angle-down"></i>
                         </a>
-                    </li>                    
+                        <ul class="dropdown-menu">
+                            <li><a href="{{site.baseurl}}{{page.lang}}/blog">{{site.data.i18n.navigation.blog.latest[page.lang]}}</a></li>
+                            <li><a href="{{site.baseurl}}blog">{{site.data.i18n.navigation.blog.archive[page.lang]}}</a></li>                         
+                        </ul>
+                    </li>    
+
                     <li class="dropdown">
                         <a href="{{site.baseurl}}{{page.lang}}/contact">
                             {{site.data.i18n.navigation.contact[page.lang]}}

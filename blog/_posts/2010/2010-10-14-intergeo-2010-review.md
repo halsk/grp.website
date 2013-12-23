@@ -11,7 +11,7 @@ tags:
   - pgRouting
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 Until this year I didn't have the opportunity to attend an [Intergeo 2010][12] fair, but I had heard about it since my university days. Staying in Germany at the time of the exhibition I got involved with OSGeo Park, organized by [FOSSGIS e.V.][1], the German representative of [OSGeo Foundation][2] and [OpenStreetMap][3].

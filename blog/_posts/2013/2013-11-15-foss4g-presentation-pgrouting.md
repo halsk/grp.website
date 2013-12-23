@@ -9,7 +9,7 @@ tags:
   - pgRouting
 published: true
 comments: true
-language: en
+lang: en
 ---
 
 In 2013 [pgRouting][1] was presentated at three FOSS4G events, in [Nottingham][2], [Tokyo][3] and [Osaka][4]. In case you have missed them all, take a look at the presentation slides:
