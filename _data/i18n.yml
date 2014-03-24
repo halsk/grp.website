@@ -109,6 +109,10 @@ footer:
         en: "You have been unsubscribed from the Georepublic Newsletter."
         de: "You have been unsubscribed from the Georepublic Newsletter."
         ja: "You have been unsubscribed from the Georepublic Newsletter."
+      confirmation:
+        en: "A confirmation email has been sent to your email address."
+        de: "A confirmation email has been sent to your email address."
+        ja: "A confirmation email has been sent to your email address."
 
   social:
     headline:

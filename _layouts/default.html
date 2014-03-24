@@ -20,13 +20,12 @@
     <!-- CSS Implementing Plugins -->    
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/flexslider/flexslider.css"> 
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/parallax-slider/css/parallax-slider.css">
-    <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/bxslider/jquery.bxslider.css">     -->
-    <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/layer_slider/css/layerslider.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/bxslider/jquery.bxslider.css">    
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/layer_slider/css/layerslider.css">
     <!-- CSS Theme -->    
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/css/themes/orange.css">    
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/css/themes/headers/header1-orange.css">   
-    <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/layer_slider/skins/fullwidth/skin.css">  -->
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/plugins/layer_slider/skins/fullwidth/skin.css"> 
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}assets/css/themes/custom.css">    
 </head> 
 
@@ -63,9 +62,7 @@
 <script type="text/javascript" src="{{site.baseurl}}assets/plugins/back-to-top.js"></script>
 <!-- JS Implementing Plugins -->           
 <script type="text/javascript" src="{{site.baseurl}}assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-<!-- <script type="text/javascript" src="{{site.baseurl}}assets/plugins/bxslider/jquery.bxslider.js"></script> -->
-<script type="text/javascript" src="{{site.baseurl}}assets/plugins/parallax-slider/js/modernizr.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}assets/plugins/parallax-slider/js/jquery.cslider.js"></script> 
+<script type="text/javascript" src="{{site.baseurl}}assets/plugins/bxslider/jquery.bxslider.js"></script>
 <!-- Layer Slider -->
 <script type="text/javascript" src="{{site.baseurl}}assets/plugins/layer_slider/jQuery/jquery-easing-1.3.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}assets/plugins/layer_slider/jQuery/jquery-transit-modified.js"></script>
@@ -78,9 +75,8 @@
     jQuery(document).ready(function() {
         App.init();
         App.initSliders();
-        // App.initBxSlider();
-        // Index.initLayerSlider();
-        Index.initParallaxSlider();
+        App.initBxSlider();
+        Index.initLayerSlider();
     });
 </script>
 <script type="text/javascript" src="{{site.baseurl}}assets/js/custom.js"></script>

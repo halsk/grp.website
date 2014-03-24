@@ -63,7 +63,7 @@ jQuery(document).ready(function() {
 
 						default:
 							if (form[0].action.split('/').pop() == 'subscribe') {
-								$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.d + '</div>');
+								$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.g + '</div>');
 							}
 							else {
 								$('body > .container:first > div:first').prepend('<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>' + message.f + '</div>');
