@@ -271,3 +271,49 @@ widgets:
         de: "Sending..."
         ja: "Sending..."
 
+  slider:
+    one:
+      text:
+        en: 'Shirasete.jp <br> Report issues in your city!'
+        de: 'Shirasete.jp <br> Melde Probleme in Deiner Stadt!'
+        ja: '知らせて.jp <br> あなたの街をより良い場所に！'
+      button:
+        en: 'Next Generation OpenGov'
+        de: 'Next Generation OpenGov'
+        ja: '次世代オープンガバメント'
+
+    two:
+      a:
+        en: '知らせて.jpを使うことで'
+        de: '知らせて.jpを使うことで'
+        ja: '知らせて.jpを使うことで'
+      b:
+        en: '市民との取り決めを促進します'
+        de: '市民との取り決めを促進します'
+        ja: '市民との取り決めを促進します'
+      c:
+        en: '地域の協同作業を促進します'
+        de: '地域の協同作業を促進します'
+        ja: '地域の協同作業を促進します'
+      d:
+        en: '街のメンテナンスのワークフローを最適化します'
+        de: '街のメンテナンスのワークフローを最適化します'
+        ja: '街のメンテナンスのワークフローを最適化します'
+      e:
+        en: '街の状態の透明性と可視性を高めます'
+        de: '街の状態の透明性と可視性を高めます'
+        ja: '街の状態の透明性と可視性を高めます'
+      button:
+        en: 'ソーシャルな市民になろう！'
+        de: 'ソーシャルな市民になろう！'
+        ja: 'ソーシャルな市民になろう！'
+
+    three:
+      text:
+        en: '市民と自治体のための<br>協働レポートツール'
+        de: '市民と自治体のための<br>協働レポートツール'
+        ja: '市民と自治体のための<br>協働レポートツール'
+      button:
+        en: 'あなたの街に参加しよう'
+        de: 'あなたの街に参加しよう'
+        ja: 'あなたの街に参加しよう'
