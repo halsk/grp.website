@@ -1,17 +1,22 @@
 name: Georepublic
+baseurl: /
 permalink: /:year/:title
+imgurl: /assets/georepublic
 relative_permalinks: false
 excerpt_separator: "<!-- more -->"
-markdown: rdiscount
 
 paginate: 5
 paginate_path: "blog/page/:num"
+markdown: kramdown
+
+rss:
+  baseurl: http://georepublic.info
 
 # Prose settings
 prose:
   rooturl: 'blog/_posts'
-  siteurl: "http://beta.georepublic.info"
-  relativeLinks: 'http://beta.georepublic.info/links.jsonp'
+  siteurl: "http://georepublic.info"
+  relativeLinks: 'http://georepublic.info/links.jsonp'
   media: "media"
 
   metadata:

@@ -1,5 +1,5 @@
 foss4g:
-  icon: icon-globe
+  icon: fa fa-globe
   title:
     en: "Open Source GIS"
     de: "Open Source GIS"
@@ -10,7 +10,7 @@ foss4g:
     ja: "Georepublic embraces the idea of Free Software, and we provide support and custom development for Open Source GIS software."
 
 opendata:
-  icon: icon-archive
+  icon: fa fa-archive
   title:
     en: "Open Data"
     de: "Open Data"
@@ -21,7 +21,7 @@ opendata:
     ja: "Our software is useless without data. Georepublic promotes and supports Open Data initiatives, and whenever possible we make use of it."
 
 opengov:
-  icon: icon-group
+  icon: fa fa-group
   title:
     en: "Open Government"
     de: "Open Government"
@@ -32,7 +32,7 @@ opengov:
     ja: "Transparency, participation and collaboration are the new trends. We want to help in building more efficient, effective and accountable governments."
 
 mobile:
-  icon: icon-tablet
+  icon: fa fa-tablet
   title:
     en: "Mobile Apps"
     de: "Mobile Apps"
@@ -43,7 +43,7 @@ mobile:
     ja: 'Smartphones and tablets are quickly becoming the essential devices for accessing the internet. Georepublic can help to "mobilize" your everyday life.'
 
 analysis:
-  icon: icon-cogs
+  icon: fa fa-cogs
   title:
     en: "Spatial Analysis"
     de: "Spatial Analysis"
@@ -54,7 +54,7 @@ analysis:
     ja: "Using GIS helps accomplish a purpose - to understand something better, to make a decision, to see connections between places, processes and phenomena."
 
 routing:
-  icon: icon-truck
+  icon: fa fa-truck
   title:
     en: "Route Optimization"
     de: "Route Optimization"

@@ -12,7 +12,7 @@
                 <ul class="list-unstyled">
                     {% for p in site.pages %}
                         {% if p.lang == page.lang and p.tags contains key %}
-                            <li><i class="icon-ok color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
+                            <li><i class="fa fa-check color-green"></i> <a href="{{p.url}}">{{p.title}}</a></li>  
                         {% endif %}
                     {% endfor %}                            
                 </ul>                    

@@ -12,12 +12,12 @@
 
             <div class="blog-post-tags">
         	    <ul class="list-unstyled list-inline blog-info">
-        	        <li><i class="icon-calendar"></i> {{ post.date | date_to_string }}</li>
-        	        <li><i class="icon-pencil"></i> {{ post.author }}</li>
+        	        <li><i class="fa fa-calendar"></i> {{ post.date | date_to_string }}</li>
+        	        <li><i class="fa fa-pencil"></i> {{ post.author }}</li>
                     <li>
-        			    <ul class="list-unstyled list-inline blog-tags">
+        			    <ul class="list-unstyled list-inline blog-tag">
         			        <li>
-        			            <i class="icon-tags"></i> 
+        			            <i class="fa fa-tags"></i> 
         			            {% for tag in post.tags %}
         				            <a href="#">{{ tag }}</a> 
         			            {% endfor %}
@@ -28,7 +28,7 @@
             </div>
 
             <p>{{ post.excerpt }}</p>
-            <p><a class="btn-u btn-u-small" href="{{ post.url }}"><i class="icon-plus-sign"></i> Read More</a></p>
+            <p><a class="btn-u btn-u-small" href="{{ post.url }}"><i class="fa fa-plus-circle"></i> Read More</a></p>
         </div>
         <hr>
 
