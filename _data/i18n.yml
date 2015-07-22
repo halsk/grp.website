@@ -23,11 +23,11 @@ navigation:
     latest:
       en: "Latest News"
       de: "Latest News"
-      ja: "Latest News"
+      ja: "最新ニュース"
     archive:
       en: "News Archive"
       de: "News Archive"
-      ja: "News Archive"
+      ja: "ニュースアーカイブ"
 
   contact:
     en: "Contact"
@@ -71,7 +71,7 @@ footer:
     text:
       en: "Subscribe to our newsletter and stay up to date with the latest news and deals!"
       de: "Abonnieren Sie unseren Newsletter und wir informieren Sie über die neuesten Entwicklungen und Angebote!"
-      ja: "ニュースレターを購読し、最新のニュースやお得な情報を最新の状態に滞在！"
+      ja: "ニュースレターを購読し、最新のニュースを受け取る"
     email:
       en: "Email Address"
       de: "Emailadresse"
@@ -83,42 +83,42 @@ footer:
     subscribe:
       en: "Subscribe"
       de: "Abonnieren"
-      ja: "申し込む"
+      ja: "購読する"
     status:
       missing:
         en: "Some fields are missing."
         de: "Some fields are missing."
-        ja: "Some fields are missing."
+        ja: "必須項目が入力されていません。"
       invalid:
         en: "Invalid email address."
         de: "Invalid email address."
-        ja: "Invalid email address."
+        ja: "メールアドレスが正しくありません。"
       unavailable:
         en: "Sorry, unable to subscribe. Please try again later!"
         de: "Sorry, unable to subscribe. Please try again later!"
-        ja: "Sorry, unable to subscribe. Please try again later!"
+        ja: "処理がうまくいきませでした。しばらく置いて再度登録願います。"
       subscribed:
         en: "You have been subscribed to the Georepublic Newsletter."
         de: "You have been subscribed to the Georepublic Newsletter."
-        ja: "You have been subscribed to the Georepublic Newsletter."
+        ja: "Georepublic Newsletter の購読に成功しました。"
       updated:
         en: "Thank you. Your Georepublic Newsletter profile has been updated."
         de: "Thank you. Your Georepublic Newsletter profile has been updated."
-        ja: "Thank you. Your Georepublic Newsletter profile has been updated."
+        ja: "Georepublic Newsletter のプロフィールが更新されました."
       unsubscribed:
         en: "You have been unsubscribed from the Georepublic Newsletter."
         de: "You have been unsubscribed from the Georepublic Newsletter."
-        ja: "You have been unsubscribed from the Georepublic Newsletter."
+        ja: "Georepublic Newsletter の購読を解除しました。"
       confirmation:
         en: "A confirmation email has been sent to your email address."
         de: "A confirmation email has been sent to your email address."
-        ja: "A confirmation email has been sent to your email address."
+        ja: "確認用のメールを、入力されたメールアドレスにお送りしました。"
 
   social:
     headline:
       en: "Stay Connected"
       de: "Stay Connected"
-      ja: "Stay Connected"
+      ja: "つながりを保つ"
 
   recentblog:
       headline:
@@ -199,19 +199,19 @@ modals:
     title:
       en: "Subscribe to our Newsletter"
       de: "Subscribe to our Newsletter"
-      ja: "Subscribe to our Newsletter"
+      ja: "Newsletterを購読する"
 
 widgets:
   subscribe:
     intro:
       en: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
       de: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
-      ja: "<strong>Subscribe to our newsletter</strong> or <strong>update your contact details</strong>, and stay up to date with the latest news and deals!"
+      ja: "<strong>ニュースレターを購読</strong> または <strong>コンタクト情報を更新</strong>, そして最新情報を得る"
 
     outro:
       en: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/en/news/unsubscribe.html">here</a> to unsubscribe.'
       de: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/de/news/unsubscribe.html">here</a> to unsubscribe.'
-      ja: 'Want to stop receiving our newsletter? Click <a class="color-green" href="/ja/news/unsubscribe.html">here</a> to unsubscribe.'
+      ja: 'ニュースレターの購読を停止しますか？ <a class="color-green" href="/ja/news/unsubscribe.html">こちら</a> からお願いします'
 
     form:
       email:
@@ -222,38 +222,38 @@ widgets:
       first:
         en: "First name"
         de: "Vorname"
-        ja: "First name"
+        ja: "名"
 
       last:
         en: "Last name"
         de: "Zuname"
-        ja: "Last name"
+        ja: "姓"
 
       company:
         en: "Company"
         de: "Unternehmen"
-        ja: "Company"
+        ja: "会社"
 
       submit:
         en: "Subscribe (Update)"
         de: "Subscribe (Update)"
-        ja: "Subscribe (Update)"
+        ja: "購読する (情報更新))"
 
       waiting:
         en: "Sending..."
         de: "Sending..."
-        ja: "Sending..."
+        ja: "送信中..."
 
   unsubscribe:
     intro:
       en: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/en/contact">Contact us</a> and we will get back to you.'
       de: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/de/contact">Contact us</a> and we will get back to you.'
-      ja: 'Get in touch. We’d love to hear from you. <a class="color-green" href="/ja/contact">Contact us</a> and we will get back to you.'
+      ja: 'コンタクト あなたのご意見お待ちしております！ <a class="color-green" href="/ja/contact">Contact us</a> からお問い合わせください'
 
     outro:
       en: '<a class="color-green" href="/en/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
       de: '<a class="color-green" href="/de/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
-      ja: '<a class="color-green" href="/ja/news/subscribe.html">Subscribe to our newsletter</a> and <strong>stay up to date</strong> with the latest news and deals!'
+      ja: '<a class="color-green" href="/ja/news/subscribe.html">ニュースレターを購読。 <strong>最新の情報</strong> をゲットする'
 
     form:
       email:
@@ -264,12 +264,12 @@ widgets:
       submit:
         en: "Unsubscribe"
         de: "Unsubscribe"
-        ja: "Unsubscribe"
+        ja: "メール配信の解除"
 
       waiting:
         en: "Sending..."
         de: "Sending..."
-        ja: "Sending..."
+        ja: "送信中..."
 
   slider:
     one:
