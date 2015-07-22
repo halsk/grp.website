@@ -20,11 +20,11 @@ navigation:
     en: "Blog"
     de: "Blog"
     ja: "ブログ"
-    latest: 
+    latest:
       en: "Latest News"
       de: "Latest News"
       ja: "Latest News"
-    archive: 
+    archive:
       en: "News Archive"
       de: "News Archive"
       ja: "News Archive"
@@ -137,9 +137,9 @@ footer:
         de: "Georepublic Japan"
         ja: "Georepublic Japan"
       address:
-        en: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokyo, JAPAN"
-        de: "3-24-14, Honmachi, Shibuya-ku <br/> 151-0071 Tokio, JAPAN"
-        ja: "〒151-0071 東京都渋谷区本町3-24-14"
+        en: "Shibuya Central Bld. 4F(4-D), <br/>3-14, Udagawa-cho, <br/> Shibuya-ku Tokyo, JAPAN <br/> 150-0042"
+        de: "Shibuya Central Bld. 4F(4-D), <br/>3-14, Udagawa-cho, <br/> Shibuya-ku Tokio, JAPAN <br/> 150-0042"
+        ja: "〒150-0042 東京都渋谷区宇田川町3-14 渋谷セントラルビル4F 4-D"
       phone:
         en: "+81 (03) 4578 9352"
         de: "+81 (03) 4578 9352"
